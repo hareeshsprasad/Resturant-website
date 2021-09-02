@@ -1,3 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x:hidden ;
+}
+section{
+    padding: 100px 0;
+}
 .nav-item{    
     padding-left: 40px;
 }
@@ -48,4 +63,16 @@
     font-size: 3vh;
     color: white;
     background: transparent;
+}
+.animation{
+    background-color: rgba(255, 189, 20, 1);
+}
+.animation img{
+    width: 411px;
+    height: 550px;
+    object-fit: cover;
+    object-position: bottom;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
 }
